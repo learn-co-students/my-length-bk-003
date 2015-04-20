@@ -24,7 +24,7 @@ You will be building out Ruby's `#length` method. You'll be monkey patching the 
 
 ## Notes
 
-You may not call on Ruby's `#length` or `#size` methods to accomplish this task.
+You may not call on Ruby's `#length`, `#size`, or `#count` methods to accomplish this task.
 
 ## Resources
 

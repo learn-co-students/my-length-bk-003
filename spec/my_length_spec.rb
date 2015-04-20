@@ -9,9 +9,10 @@ describe "#my_length" do
     expect(numbers).to eq(numbers)
   end
 
-  it "doesn't use #length or #size" do     
+  it "doesn't use #length, #size, or #count" do     
     expect_any_instance_of(Array).to_not receive(:length)
     expect_any_instance_of(Array).to_not receive(:size)
+    expect_any_instance_of(Array).to_not receive(:count)
     numbers.my_length
   end
 
