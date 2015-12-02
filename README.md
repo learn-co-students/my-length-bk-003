@@ -25,3 +25,5 @@ You may not call on Ruby's `#length`, `#size`, or `#count` methods to accomplish
 ## Resources
 
 * [Ruby's Length Method](http://ruby-doc.org/core-2.2.0/Array.html#method-i-length)
+
+<a href='https://learn.co/lessons/my-length' data-visibility='hidden'>View this lesson on Learn.co</a>
